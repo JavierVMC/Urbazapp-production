@@ -1,8 +1,8 @@
-const urldev = 'http://localhost:3000/'
-// const urlprod = 'http://134.209.215.193:3000/'
+// const urldev = 'http://localhost:3000/'
+const urlprod = 'http://134.209.215.193:3000/'
 
 const data = {
-  url: urldev,
+  url: urlprod,
   number: 'localhost:3000',
   urlProd: '134.209.215.193:3000/'
 }
