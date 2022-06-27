@@ -1,0 +1,185 @@
+.Login{
+    margin-left: 5% ;
+    margin-right: 5% ;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.Login-logo{  
+    width: 80%;
+}
+
+#passwordLogin{
+    color: #000;
+    width: 100%;
+    border:2px solid #02023D;
+    background-color: #fff;
+}
+
+#passwordLog{
+    color: #000;
+    width: 100%;
+    border:2px solid #02023D;
+    background-color: #fff;
+}
+
+body, #root, .container_login{
+    height: 100%;
+    width: 100%;
+}
+
+.container_login{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.panelDatos{
+    height: 100%;
+}
+#info{
+    width: 100%;
+}
+
+.input_pass{
+    margin-bottom: 0px;
+}
+.Login-title{
+    text-align: center;
+    margin-bottom: 50px
+}
+
+#tarjeta_login{
+    width: 60% !important;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #ffffff;
+    border: 1px solid #b8b8b8;
+    border-top: 5px solid  #f4733e ;
+}
+
+#username::placeholder { color: #02023D; }
+#username{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #02023D;
+}
+
+
+#passwordLogin::placeholder { color: #02023D; }
+#passwordLog::placeholder { color: #02023D; }
+/*
+#password{
+    color: #FFFFFF;
+    background-color: #02023D;
+    border: #02023D;
+}
+*/
+#password2::placeholder { color: #000; }
+
+#codigoF::placeholder { color: #000; }
+
+.Login-title > h3{
+    font-size: 40px;
+}
+
+.input-group{
+    color: #FFFFFF;
+}
+
+#img_login{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_eye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px .25rem .25rem 0;
+    border-top: 1px solid #02023D;
+    border-bottom: 1px solid #02023D;
+    border-right: 1px solid #02023D;
+    background-color: #02023D;
+    
+}
+
+
+.MuiSvgIcon-root {
+    fill: #9c9c9c !important;
+}
+
+#registrate{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 11px;
+}
+#btn-round{
+    background: #f4733e;
+    border:none;
+}
+
+#btn-round:hover{
+    background: #E86E3C;
+    border:none;
+}
+
+.input-group{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+#cont_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+#registrate a{
+    color: #02023D;
+}
+
+.cajaLogoR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Urbaz-partR{
+    font-size: 80px;
+    color: #fff;
+}
+.app-partR{
+    font-size: 80px;
+    color: #F4733E;
+
+}
+ 
+/*Responsive*/
+@media only screen and (max-width: 800px) {
+    #tarjeta_login{
+        display: block;
+        margin: auto;
+    }
+    
+    .container_login{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 701px) {
+    #tarjeta_login{
+        display: block;
+        margin: auto;
+    }
+    
+    .container_login{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+  

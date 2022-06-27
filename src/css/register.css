@@ -1,0 +1,371 @@
+/*Ajustar al 100 html. body y contnenedor general */
+
+html, body {
+    height:100% !important;
+}
+
+#cont_general{
+    height:100% !important;
+    background-color: white;
+}
+
+.btn_eyeLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0.25rem 0.25rem 0;
+    border-top: 2px solid #02023D;
+    border-bottom: 2px solid #02023D;
+    border-right: 2px solid #02023D;
+    background-color: #fff;
+}
+
+/*Ajustar al 100% de la pantalla del cliente el formulario*/
+#seccionForm{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;  
+    margin: 0;
+}
+
+#cont_secForm{
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+
+}
+
+#tarjeta{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#grupoRegistro{
+    display: flex;
+    padding-top: 10px;
+}
+
+#cvcRegister::placeholder {color: #02023D;}
+#cvcRegister{
+    width: 90px;
+    height: 44px;
+    border: 2px solid #02023D !important;
+    border-radius: 0 !important;
+    margin-left: 15px;
+}
+
+/*Ajustar imagen de la izquierda*/
+.img_urbi img{
+    width: 50%
+}
+
+.img_urbi{
+    padding-right: 0px;
+    background-color: #02023D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+/*Contenedor de formularios en cada step*/
+.cont_formulario{
+    
+}
+.cont_formulario p{
+    margin-top: 0px;
+}
+
+
+/*Campos en grupo*/
+.groupLabels{
+    
+}
+#mensajeTarjeta{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+
+#nombres::placeholder {color: #02023D;}
+#nombres {
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+}
+
+#apellidos::placeholder { color: #02023D; }
+#apellidos{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+}
+
+#apellgeneroidos::placeholder { color: #02023D; }
+#genero{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+}
+
+.first_child::placeholder { color: #02023D; }
+.first_child {
+    color: #000;
+    background-color:#fff;
+
+   
+}
+
+.second_child::placeholder { color: #02023D; }
+.second_child {
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+}
+
+#identificacion::placeholder { color: #02023D; }
+ #identificacion{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+ }
+
+#telefono::placeholder { color: #02023D; }
+#telefono{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+}
+
+#correo::placeholder { color: #02023D; }
+#correo{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D; 
+}
+#usernameRegister::placeholder { color: #02023D; }
+#usernameRegister{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D; 
+}
+#passwordLogin::placeholder { color: #02023D; }
+#passwordLogin{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D; 
+}
+
+.groupLabels > .first_child{
+    background-color:#fff;   
+}
+.container_reg{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+#tarjeta > p{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    color: #000;
+    font-size: 11px;
+}
+.inic > a{
+    color:#02023D
+}
+
+.cont_formulario > p{
+    color: #000 !important;
+    justify-content: center !important;
+}
+
+/*Registro de tarjeta de crédito*/
+#titularTarjetaRegister::placeholder { color: #02023D; }
+#titularTarjetaRegister{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D !important; 
+}
+#numeroTarjetaRegister::placeholder { color: #02023D; }
+#numeroTarjetaRegister{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D !important; 
+}
+
+
+/*Navbar*/
+.navBarRegister{
+    background-color: #02023d !important;
+    justify-content: flex-start !important;
+}
+
+.separator{
+    margin-top: 20px;
+}
+
+
+/*Tarjeta de formulario*/
+.trj{
+    margin: auto;
+}
+.trj h3,.trj h4{
+    text-align: center;
+    font-weight: bolder;
+    color:#02023D;;
+}
+.trj p{
+    margin-bottom: 0px;
+    color:#fff;
+}
+.card{
+    border: 0px;
+}
+.Urbaz-partL{
+    font-size: 80px;
+    color: #fff;
+}
+.app-partL{
+    font-size: 80px;
+    color: #F4733E;
+
+}
+.cajaLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotoLogoL{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#mensaje{
+    color: black;
+}
+
+.panelDatos{
+    background-color: white;
+    padding-left: 0px;
+    height: 100%  !important;
+    width: 60%;
+}
+
+.datos1{
+    padding-top: 15px;
+}
+
+#btn_sgt{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Botones bottom*/
+#buttonsControl{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buttonsControl #next{
+    color: white;
+    background-color: #f4733e;
+}
+
+.metodo{
+    margin-bottom: 20px;
+}
+.form-check-label{
+    color: rgb(107, 107, 107);
+}
+
+/*Mensajes en feedback*/
+.feedback{
+    font-size: x-small;
+    color: red;
+}
+
+/*Método de pago*/
+.metodo{
+    padding: 0px;
+}
+
+#cvc{
+    margin: 0px !important;
+}
+
+#link_login{
+    position: absolute;
+    right: 5%;
+}
+
+#link_login a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo_reg{
+    margin-left: 2%;
+    
+}
+
+#logo_resp{
+    display: none;
+}
+
+#password2::placeholder { color: #02023D; }
+#password2{
+    color: #000;
+    background-color:#fff;
+    border: 2px solid #02023D;
+}
+#codigoF::placeholder { color: #02023D; }
+.form-group > #codigoF{
+    color: #000 !important; 
+    background-color:#fff !important;
+    border: 2px solid #02023D !important;
+}
+.regis{
+    color: #02023D;
+}
+
+#registrate>p{
+    color: #000;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 800px) {
+    
+    #seccionForm{
+        display: block;
+        height: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 90%;
+    }
+    .img_urbi{
+        display: none;
+    }
+    .container_reg{
+        width: 100%;
+    }
+    .card-title{
+        height: 15%;
+    }
+    #logo_resp{    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #logo_resp img{
+        width: 50%;
+    }
+
+}

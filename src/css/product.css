@@ -1,0 +1,131 @@
+/* Estilo para el componente de Detalle de Productos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.image {
+    border: 1px solid #ddd;
+    border-radius: 10%;
+    max-width: 50%;
+    margin: auto;
+}
+
+[id$=totlabel]>p {
+    border-top: solid 2px;
+    border-color: #f4733e;
+}
+
+#btnAgregarCarrito{
+    background-color: #f4733e;
+}
+
+#card-body-img{
+    align-content: center;
+    text-align: center;
+}
+
+
+#imgContainer, #productoVendedor{
+    padding-top: 5%;
+}
+
+#iconEstrella{
+    font-size: 12px;
+}
+
+.fa-star{
+    color:rgba(228, 228, 47, 0.842);
+}
+
+#imgCard{
+    color: black;
+    border-color: transparent;
+    border-right: 1px solid rgb(221, 221, 221);
+    padding-bottom: 5%;
+    border-radius: 0px;
+    
+
+}
+#cont_cantidad{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#btns_aumento{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 3px;
+}
+#cont_cantidad Button{
+    border-radius: 0px;
+    background-color: #f4733e;
+    padding: 0px;
+    width: 20px;
+    text-align: center;
+    height: 15px;
+    font-size: 15px;
+}
+
+
+
+.name_product{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cont_comentarios{
+    border-top: 0.5px solid rgba(128, 128, 128, 0.438);
+    padding: 30px;
+}
+
+#productoComentarios p{
+    color: gray;
+}
+
+
+#productoDescripcion, #productoComentarios{
+    text-align: justify;
+}
+
+#productoPreFactura, #productoComentarios{
+    padding-top: 2%;
+}
+
+#productoPreFactura{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#productoUpRight{
+    padding: 4%;
+}
+
+
+.cont_detail{
+    padding-bottom: 10%;
+}
+
+
+.cantProductoBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.commentsBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.fa-info-circle{
+    color:#506048;
+    cursor: pointer;
+}
+
+#info_Importe{
+    font-size: x-small;
+    color: rgb(126, 126, 126);
+}
