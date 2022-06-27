@@ -1,7 +1,19 @@
 const express = require('express')
+const path = require('path')
 const cors = require('cors')
 const nodemailer = require('nodemailer')
 const app = express()
+
+// Serve static files
+const buildPath = path.normalize(path.join(__dirname, '../build'))
+app.use(express.static(buildPath))
+
+const rootRouter = express.Router()
+
+// Send all requests to index.html
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, '/build/index.html'))
+})
 
 app.listen(4000, () => {
   console.log('Servidor escuchando en el puerto 4000')
@@ -113,3 +125,8 @@ app.get('/api/customers', async (req, res) => {
     console.log('Error')
   }
 })
+
+rootRouter.get('(/*)?', async (req, res, next) => {
+  res.sendFile(path.join(buildPath, 'index.html'))
+})
+app.use(rootRouter)
