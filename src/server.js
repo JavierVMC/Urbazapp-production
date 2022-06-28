@@ -4,11 +4,6 @@ const cors = require('cors')
 const nodemailer = require('nodemailer')
 const app = express()
 
-// Send all requests to index.html
-app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, '/build/index.html'))
-})
-
 app.listen(4000, () => {
   console.log('Servidor escuchando en el puerto 4000')
 })
@@ -17,9 +12,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 app.use(cors())
-
-// Serve static files
-app.use(express.static(path.join(__dirname, '../build')))
 
 app.post('/api/contactanos', async (req, res) => {
   // eslint-disable-next-line node/handle-callback-err
