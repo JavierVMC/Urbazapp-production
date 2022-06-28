@@ -5,10 +5,7 @@ const nodemailer = require('nodemailer')
 const app = express()
 
 // Serve static files
-const buildPath = path.normalize(path.join(__dirname, '../build'))
-app.use(express.static(buildPath))
-
-const rootRouter = express.Router()
+app.use(express.static(path.join(__dirname, '../build')))
 
 // Send all requests to index.html
 app.get('/*', function (req, res) {
@@ -125,8 +122,3 @@ app.get('/api/customers', async (req, res) => {
     console.log('Error')
   }
 })
-
-rootRouter.get('(/*)?', async (req, res, next) => {
-  res.sendFile(path.join(buildPath, 'index.html'))
-})
-app.use(rootRouter)
